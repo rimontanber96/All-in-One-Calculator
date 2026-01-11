@@ -1,108 +1,48 @@
 🧮 All-in-One Calculator (C++)
 
-An interactive menu-driven multiple calculator program written in C++.
-This project combines three different calculators into a single console application:
+A simple menu-driven C++ calculator that combines three handy tools in one console program:
 
-🔬 Scientific Calculator
+🔬 Scientific Calculator – basic operations, powers, roots, and trigonometry
 
-🎓 CGPA Calculator
+🎓 CGPA Calculator – calculate your CGPA from grades and credits
 
-💸 Discount Calculator
+💸 Discount Calculator – quickly find final price after discount
 
-It is suitable for beginners, college assignments, and basic C++ practice involving functions, loops, conditionals, and mathematical operations.
+Perfect for students, beginners, and anyone learning C++ to practice functions, loops, and basic math operations.
 
 ✨ Features
-1️⃣ Scientific Calculator
 
-Supports common mathematical operations:
+User-friendly menu system
 
-Addition
+Handles division by zero safely
 
-Subtraction
+Supports trigonometric functions in radians
 
-Multiplication
+Calculates weighted CGPA
 
-Division (with division-by-zero handling)
+Quick discount calculation
 
-Square Root
+🚀 How to Run
 
-Power
+Compile the program:
 
-Trigonometric functions:
+g++ multiplecalculator.cpp -o calculator
 
-sin()
 
-cos()
+Run it:
 
-tan()
+./calculator
 
-📌 Note: Trigonometric functions take input in radians.
 
-2️⃣ CGPA Calculator
-
-Calculates CGPA based on:
-
-Grade points
-
-Subject credits
-
-Uses weighted average formula:
-
-CGPA = (Σ (grade × credit)) / (Σ credits)
-
-3️⃣ Discount Calculator
-
-Calculates the final price after applying a discount percentage:
-
-Final Price = Price − (Price × Discount / 100)
+Follow the on-screen menu to choose a calculator.
 
 🛠️ Technologies Used
 
 Language: C++
 
-Libraries: <bits/stdc++.h>
+Library: <bits/stdc++.h>
 
-Concepts Used:
-
-Functions
-
-Switch-case
-
-Loops
-
-Conditional statements
-
-Mathematical operations
-
-🚀 How to Run
-
-Compile the program
-
-g++ calculator.cpp -o calculator
-
-
-Run the executable
-
-./calculato
-🎯 Learning Outcomes
-
-Understanding menu-driven programs
-
-Using functions for modular design
-
-Applying mathematical formulas in C++
-
-Handling user input and validation
-
-📌 Future Improvements (Optional)
-
-Degree-to-radian conversion for trigonometric functions
-
-Loop inside Scientific Calculator for repeated operations
-
-Better input validation
-
-GUI version using C++ graphics or Qt
+Concepts: Functions, loops, conditionals, mathematical operations
 
 👨‍💻 Author
 
